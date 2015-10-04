@@ -1,0 +1,46 @@
+ Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        '  Dim a As New OleDbCommand
+        '  Dim m As OleDbDataReader
+        '  Dim da As OleDbDataAdapter
+        Dim ds As New DataSet
+
+        Dim dc As OleDbCommand
+        cnn = New OleDbConnection
+
+        Dim ds2 As New DataSet
+        '  Dim r As DataRow
+        Dim sql As String
+        cnn.ConnectionString = "PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=c:\allomani.mdb;"
+        cnn.Open()
+
+
+        Dim a As New OleDbCommand
+        Dim m As OleDbDataReader
+
+      
+
+        a.Connection = cnn
+        '      a.CommandText = "select TOP 5 ID,Key1,company,color_type from colors"
+        a.CommandText = "select ID,Key1,company,color_type from colors where company like '" & company_id.Text & "' and color_type like '" & color_type_id.Text & "'"
+        m = a.ExecuteReader()
+
+        While m.Read()
+            sql = "delete from colors where company like '" & m!company & "' and color_type like '" & m!color_type & "' and Key1 like '" & m!Key1 & "' and ID NOT like '" & m!ID & "'"
+            rtbDisplay.Text &= sql & vbNewLine
+            Application.DoEvents()
+            Exit While
+            dc = New OleDbCommand
+            dc.Connection = cnn
+            dc.CommandText = sql
+            dc.ExecuteNonQuery()
+        End While
+
+
+
+
+             
+               
+        MessageBox.Show("fone")
+
+        ' End While
+    End Sub

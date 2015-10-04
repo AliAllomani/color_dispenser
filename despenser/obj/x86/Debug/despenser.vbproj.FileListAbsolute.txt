@@ -1,0 +1,26 @@
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Debug\despenser.exe
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Debug\despenser.pdb
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Debug\despenser.xml
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\despenser.Form1.resources
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\despenser.Resources.resources
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\despenser.exe
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\despenser.xml
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Debug\despenser.pdb
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Debug\despenser.exe.config
+D:\Work\Projects\despenser\despenser\bin\Debug\despenser.exe.config
+D:\Work\Projects\despenser\despenser\bin\Debug\despenser.exe
+D:\Work\Projects\despenser\despenser\bin\Debug\despenser.pdb
+D:\Work\Projects\despenser\despenser\bin\Debug\despenser.xml
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\despenser.Form1.resources
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\despenser.Resources.resources
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\despenser.exe
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\despenser.xml
+D:\Work\Projects\despenser\despenser\obj\x86\Debug\despenser.pdb

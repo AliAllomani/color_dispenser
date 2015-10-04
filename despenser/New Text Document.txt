@@ -1,0 +1,83 @@
+ Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        '  Dim a As New OleDbCommand
+        '  Dim m As OleDbDataReader
+        '  Dim da As OleDbDataAdapter
+        Dim ds As New DataSet
+        Dim da2 As OleDbDataAdapter
+        Dim dc As OleDbCommand
+        cnn = New OleDbConnection
+        Dim cnn2 As OleDbConnection
+        Dim ds2 As New DataSet
+        '  Dim r As DataRow
+        Dim sql As String
+        cnn.ConnectionString = "PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=c:\allomani.mdb;"
+        cnn.Open()
+        For m = 1 To 10
+            For n = 1 To 11
+                cnn2 = New OleDbConnection
+                cnn2.ConnectionString = "PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=c:\DB\SF" & m & "\SF" & n & "\Formulas.mdb;"
+                cnn2.Open()
+
+                'where company='" & company_id.Text & "' and color='" & color_type_id.Text & "'"
+                '  a.Connection = cnn
+                '  a.CommandText = "select * from colors where company like '" & company_id.Text & "' and color_type like '" & color_type_id.Text & "'"
+                ' a.CommandText = "select * from colors"
+                ' da = New OleDbDataAdapter("select ID,Base_ID,Key1,Formula from colors where company like '" & company_id.Text & "' and color_type like '" & color_type_id.Text & "'", cnn)
+                '      da = New OleDbDataAdapter("select * from colors", cnn)
+
+                da2 = New OleDbDataAdapter("select ID,Key1,Formula,Base_ID,Base_Quantity from Formulas", cnn2)
+                ' da.SelectCommand = a.ExecuteScalar
+                da2.Fill(ds2)
+                '   da.Fill(ds)
+
+
+                ' m = a.ExecuteReader()
+                If ds2.Tables(0).Rows.Count > 0 Then
+
+                    '  grid3.RowCount = 0
+                    '  Dim i As Integer = 0
+                    '  grid3.RowCount = ds.Tables(0).Rows.Count
+                    For i = 0 To (ds2.Tables(0).Rows.Count - 1)
+                        '   For i = 0 To 10
+                        ' While m.Read()
+                        'grid3.RowCount += 1
+                        ' grid3.Rows(i).Cells(0).Value = m!ID
+                        '  grid3.Rows(i).Cells(0).Value = i
+                        sql = "insert into colors (Key1,Formula,Base_Quantity,Base_ID,company,color_type) values ('" & ds2.Tables(0).Rows(i).Item("Key1") & "','" & ds2.Tables(0).Rows(i).Item("Formula") & "','" & ds2.Tables(0).Rows(i).Item("Base_Quantity") & "','" & ds2.Tables(0).Rows(i).Item("Base_ID") & "','" & n & "','" & m & "')"
+                        '   MessageBox.Show(sql)
+                        '      da2 = New OleDbDataAdapter("select ID,Key1,Formula,Base_ID,Base_Quantity from colors", cnn)
+                        '  r = ds.Tables(0).NewRow()
+                        '  r("Key1") = ds2.Tables(0).Rows(i).Item("Key1")
+                        '  r("Formula") = ds2.Tables(0).Rows(i).Item("Formula")
+                        '  ds.Tables(0).Rows.Add(r)
+                        dc = New OleDbCommand
+                        dc.Connection = cnn
+                        dc.CommandText = sql
+                        dc.ExecuteNonQuery()
+
+                        '  da2.InsertCommand.CommandText = sql
+                        ' da2.InsertCommand.Connection = da2.SelectCommand.Connection
+                        '   grid3.Rows(i).Cells(1).Value = bases(ds.Tables(0).Rows(i).Item("Base_ID"))
+
+                        '   grid3.Rows(i).Cells(2).Value = ds.Tables(0).Rows(i).Item("Key1")
+                        '  grid3.Rows(i).Cells(3).Value = ds.Tables(0).Rows(i).Item("Formula")
+
+                        '   TextBox1.Text += vbNewLine + m!name
+
+                        '  Application.DoEvents()
+                    Next i
+                    ' Insert the record even in the database
+                    ' da.Update(ds)
+
+                    ' Align in-memory data with the data source ones
+                    '  ds.AcceptChanges()
+                End If
+                rtbDisplay.Text &= n & " : Done "
+            Next n
+
+        Next m
+        MessageBox.Show("fone")
+
+        ' End While
+
+    End Sub

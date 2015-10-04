@@ -1,0 +1,28 @@
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Release\despenser.exe
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Release\despenser.pdb
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Release\despenser.xml
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\despenser.Form1.resources
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\despenser.Resources.resources
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\GenerateResource.read.1.tlog
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\GenerateResource.write.1.tlog
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\despenser.exe
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\despenser.xml
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\despenser.pdb
+d:\my documents\visual studio 2010\Projects\despenser\despenser\bin\Release\despenser.exe.config
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+d:\my documents\visual studio 2010\Projects\despenser\despenser\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+D:\Work\Projects\despenser\despenser\bin\Release\despenser.exe.config
+D:\Work\Projects\despenser\despenser\obj\x86\Release\despenser.exe
+D:\Work\Projects\despenser\despenser\obj\x86\Release\despenser.xml
+D:\Work\Projects\despenser\despenser\obj\x86\Release\despenser.pdb
+D:\Work\Projects\despenser\despenser\bin\Release\despenser.exe
+D:\Work\Projects\despenser\despenser\bin\Release\despenser.pdb
+D:\Work\Projects\despenser\despenser\bin\Release\despenser.xml
+D:\Work\Projects\despenser\despenser\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Work\Projects\despenser\despenser\obj\x86\Release\despenser.Form1.resources
+D:\Work\Projects\despenser\despenser\obj\x86\Release\despenser.Resources.resources
+D:\Work\Projects\despenser\despenser\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+D:\Work\Projects\despenser\despenser\obj\x86\Release\GenerateResource.write.1.tlog
